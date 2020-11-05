@@ -6,7 +6,7 @@ MessageBoxes is a library for python that allows you to create windows style mes
 
 You can install MessageBoxes with <a href="https://pip.pypa.io/en/stable/installing/">pip</a>! Once you have installed pip, open Command Prompt, Terminal or Powershell and type:
 ```
-pip install messageboxes
+pip install message-boxes
 ```
 
 ## Message Boxes Module
