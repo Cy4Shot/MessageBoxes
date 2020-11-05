@@ -1,6 +1,6 @@
 # Message Boxes
  
- MessageBoxes is a library for python that allows you to create windows style message boxes in python!
+MessageBoxes is a library for python that allows you to create windows style message boxes in python!
 
 ## Installation
 
