@@ -8,7 +8,18 @@ setup_args = dict(
     packages=find_packages(),
     author='Cy4',
     keywords=['Message', 'Boxes', 'MessageBoxes'],
-    python_requires='>=3.6'
+    classifiers=[
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+    ]
 )
 
 if __name__ == '__main__':
