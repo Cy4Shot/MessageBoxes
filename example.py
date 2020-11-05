@@ -1,4 +1,4 @@
-import message_boxes
+from message_boxes import message_box
 
-result = message_boxes.message_box("Message Box Example Hello 42069", "Would you like to be awesome?", 3)
+result = message_box("Message Box Example", "Would you like to be awesome?", 3)
 print(result)

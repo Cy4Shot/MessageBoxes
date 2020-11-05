@@ -21,9 +21,10 @@ This package will allow you to create a message box with a simple `message_box()
 ```python
 from message_boxes import message_box
 
-message_box("<Window Title>", "<Box Contents>", <args>)
+result = message_box("<Window Title>", "<Box Contents>", <args>)
+print(result) # Prints the ID of the button pressed.
 ```
-Or get the sum of the overloads that you want from the table below:
+For the args, get the sum of the overloads that you want from the table below:
 
 Constant | Value | Description
 --- | --- | ---
