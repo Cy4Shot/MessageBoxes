@@ -1,3 +1,8 @@
+[![PyPI version](https://badge.fury.io/py/message-boxes.svg)](https://badge.fury.io/py/message-boxes)
+[![PyPI license](https://img.shields.io/pypi/l/message-boxes.svg)](https://pypi.python.org/pypi/message-boxes/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/message-boxes.svg)](https://pypi.python.org/pypi/message-boxes/)
+[![Downloads](https://pepy.tech/badge/message-boxes)](https://pepy.tech/project/message-boxes)
+
 # Message Boxes
  
 MessageBoxes is a library for python that allows you to create windows style message boxes in python!
