@@ -2,6 +2,16 @@ import platform
 from tempfile import TemporaryDirectory
 from subprocess import run, PIPE
 
+wrapper = {
+    1: True,
+    2: None,
+    3: False,
+    4: True,
+    5: None,
+    6: True,
+    7: False
+}
+
 def message_box(title, content, args=''):
     """Creats a message box. WINDOWS USERS ONLY!
 
@@ -15,6 +25,6 @@ def message_box(title, content, args=''):
             with open(temp_dir + '\\data.vbs', 'w') as f:
                 f.write('x=MsgBox("'+content+'", '+str(args)+', "'+title + '")\nSet fso = CreateObject ("Scripting.FileSystemObject")\nSet stdout = fso.GetStandardStream (1)\nstdout.WriteLine x')
             result = run('wscript //nologo ' + temp_dir + '\\data.vbs', stdout=PIPE, stderr=PIPE, universal_newlines=True)
-            return int(result.stdout)
+            return wrapper[int(result.stdout)]
     else:
         raise(OSError("Wrong Operating System: Must be Windows"))

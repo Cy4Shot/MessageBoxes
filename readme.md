@@ -14,8 +14,8 @@ You can install MessageBoxes with <a href="https://pip.pypa.io/en/stable/install
 pip install message-boxes
 ```
 
-## Message Boxes Module
-The Message Boxes module allows you to create a windows message box using VB overloads! It creates a temporary vbscript and executes it to create a message box.
+## Message Boxes
+Message Boxes allows you to create a windows message box using VB overloads! It creates a temporary vbscript and executes it to create a message box.
 To begin, you need to import the message boxes module:
 ```python
 from message_boxes import message_box
@@ -27,7 +27,7 @@ This package will allow you to create a message box with a simple `message_box()
 from message_boxes import message_box
 
 result = message_box("<Window Title>", "<Box Contents>", <args>)
-print(result) # Prints the ID of the button pressed.
+print(result) # Prints True, False or None depending on the button pressed.
 ```
 For the args, get the sum of the overloads that you want from the table below:
 
