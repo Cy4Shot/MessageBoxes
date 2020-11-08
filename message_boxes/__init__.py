@@ -18,4 +18,4 @@ def message_box(title, content, args=''):
             open(temp_dir+'\\data.vbs','w').write('x=MsgBox("'+content+'",'+str(args)+',"'+title+'")\nSet fso=CreateObject("Scripting.FileSystemObject")\nSet stdout=fso.GetStandardStream(1)\nstdout.WriteLine x')
             return wrapper[int(run('wscript //nologo '+temp_dir+'\\data.vbs',stdout=PIPE).stdout)]
     else:
-        raise(OSError("Wrong Operating System: Must be Windows"))
+        raise(OSError("Wrong Operating System, Must be Windows"))
